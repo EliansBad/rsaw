@@ -1,6 +1,8 @@
 # rsaw
 RSAW is a API wrapper for Random Stuff API.
 
+visit project on [PyPi](https://pypi.org/project/rsaw/0.8/) (python package index)
+
 ## Examples
 the best way to learn is too look at examples. Here are some examples for RSAW.
 - - -
