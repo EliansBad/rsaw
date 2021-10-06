@@ -38,3 +38,15 @@ The *ai* function has theese paramaters:
 
  
 - - -
+### Message backups:
+message backups will make your function return a random string from a list instead of an error.
+
+to do this:
+```py
+from rsaw.v5.rsa import *
+client = RandomStuff(key="kanyewest", server="main")
+client.set_backups(ai=['String', 'other string'], joke=['a'])
+ai = client.ai_response(message='') #empty string gives error in RSA
+print(ai)
+```
+This will print either `String` Or `other string` because of the backup we set up.
