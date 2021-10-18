@@ -107,3 +107,5 @@ class RandomStuff:
                     
 
         return val
+        # Cires :)
+        # Marking notes in my codes so i can cry more efficient
